@@ -1,0 +1,37 @@
+{
+  "name": "vueelian",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "16.13.1",
+    "react-native": "0.63.4",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-paper": "^4.9.2",
+    "react-native-reanimated": "^2.2.2",
+    "react-native-screens": "^3.7.2",
+    "vue-native-core": "0.3.1",
+    "vue-native-helper": "0.3.1",
+    "vue-native-router": "^0.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.0.0",
+    "@babel/runtime": "^7.15.4",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "babel-jest": "^27.2.0",
+    "eslint": "^7.32.0",
+    "jest": "^27.2.0",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "16.13.1",
+    "vue-native-scripts": "0.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
